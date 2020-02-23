@@ -1,0 +1,16 @@
+C:\Users\EBRESAFE B\Documents\cs\Programming Files\MathAPI\MathAPI\MathAPI\bin\Debug\netcoreapp3.0\MathAPI.deps.json
+C:\Users\EBRESAFE B\Documents\cs\Programming Files\MathAPI\MathAPI\MathAPI\bin\Debug\netcoreapp3.0\MathAPI.dll
+C:\Users\EBRESAFE B\Documents\cs\Programming Files\MathAPI\MathAPI\MathAPI\bin\Debug\netcoreapp3.0\MathAPI.pdb
+C:\Users\EBRESAFE B\Documents\cs\Programming Files\MathAPI\MathAPI\MathAPI\obj\Debug\netcoreapp3.0\MathAPI.csprojAssemblyReference.cache
+C:\Users\EBRESAFE B\Documents\cs\Programming Files\MathAPI\MathAPI\MathAPI\obj\Debug\netcoreapp3.0\MathAPI.AssemblyInfoInputs.cache
+C:\Users\EBRESAFE B\Documents\cs\Programming Files\MathAPI\MathAPI\MathAPI\obj\Debug\netcoreapp3.0\MathAPI.AssemblyInfo.cs
+C:\Users\EBRESAFE B\Documents\cs\Programming Files\MathAPI\MathAPI\MathAPI\obj\Debug\netcoreapp3.0\MathAPI.dll
+C:\Users\EBRESAFE B\Documents\cs\Programming Files\MathAPI\MathAPI\MathAPI\obj\Debug\netcoreapp3.0\MathAPI.pdb
+C:\Users\EBRESAFE B\Documents\cs\Programming Files\MathAPI\src\MathAPI\bin\Debug\netcoreapp3.0\MathAPI.deps.json
+C:\Users\EBRESAFE B\Documents\cs\Programming Files\MathAPI\src\MathAPI\bin\Debug\netcoreapp3.0\MathAPI.dll
+C:\Users\EBRESAFE B\Documents\cs\Programming Files\MathAPI\src\MathAPI\bin\Debug\netcoreapp3.0\MathAPI.pdb
+C:\Users\EBRESAFE B\Documents\cs\Programming Files\MathAPI\src\MathAPI\obj\Debug\netcoreapp3.0\MathAPI.csprojAssemblyReference.cache
+C:\Users\EBRESAFE B\Documents\cs\Programming Files\MathAPI\src\MathAPI\obj\Debug\netcoreapp3.0\MathAPI.AssemblyInfoInputs.cache
+C:\Users\EBRESAFE B\Documents\cs\Programming Files\MathAPI\src\MathAPI\obj\Debug\netcoreapp3.0\MathAPI.AssemblyInfo.cs
+C:\Users\EBRESAFE B\Documents\cs\Programming Files\MathAPI\src\MathAPI\obj\Debug\netcoreapp3.0\MathAPI.dll
+C:\Users\EBRESAFE B\Documents\cs\Programming Files\MathAPI\src\MathAPI\obj\Debug\netcoreapp3.0\MathAPI.pdb

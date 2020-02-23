@@ -1,0 +1,74 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "C:\\Users\\EBRESAFE B\\Documents\\cs\\Programming Files\\Libmacs\\test\\Libmacs.Tests\\Libmacs.UnitTests.csproj",
+    "projectName": "Libmacs.UnitTests",
+    "projectPath": "C:\\Users\\EBRESAFE B\\Documents\\cs\\Programming Files\\Libmacs\\test\\Libmacs.Tests\\Libmacs.UnitTests.csproj",
+    "outputPath": "C:\\Users\\EBRESAFE B\\Documents\\cs\\Programming Files\\Libmacs\\test\\Libmacs.Tests\\obj\\",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "C:\\Microsoft\\Xamarin\\NuGet",
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.1"
+    ],
+    "sources": {
+      "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "netcoreapp2.1": {
+        "projectReferences": {
+          "C:\\Users\\EBRESAFE B\\Documents\\cs\\Programming Files\\Libmacs\\src\\Libmacs.csproj": {
+            "projectPath": "C:\\Users\\EBRESAFE B\\Documents\\cs\\Programming Files\\Libmacs\\src\\Libmacs.csproj"
+          },
+          "C:\\Users\\EBRESAFE B\\Documents\\cs\\Programming Files\\Libmacs\\src\\Libmacs\\Libmacs.csproj": {
+            "projectPath": "C:\\Users\\EBRESAFE B\\Documents\\cs\\Programming Files\\Libmacs\\src\\Libmacs\\Libmacs.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.1": {
+      "dependencies": {
+        "Microsoft.NET.Test.Sdk": {
+          "target": "Package",
+          "version": "[16.3.0-preview-20190828-03, )"
+        },
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.1.0, )",
+          "autoReferenced": true
+        },
+        "xunit": {
+          "target": "Package",
+          "version": "[2.4.1, )"
+        },
+        "xunit.runner.visualstudio": {
+          "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.4.1, )"
+        }
+      },
+      "imports": [
+        "net461",
+        "net462",
+        "net47",
+        "net471",
+        "net472",
+        "net48"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

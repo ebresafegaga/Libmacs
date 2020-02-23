@@ -1,0 +1,119 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\EBRESAFE B\\Documents\\cs\\Programming Files\\MathAPI\\MathAPI\\MathAPI.ConsoleTest\\MathAPI.ConsoleTest.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\EBRESAFE B\\Documents\\cs\\Programming Files\\MathAPI\\MathAPI\\MathAPI.ConsoleTest\\MathAPI.ConsoleTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\EBRESAFE B\\Documents\\cs\\Programming Files\\MathAPI\\MathAPI\\MathAPI.ConsoleTest\\MathAPI.ConsoleTest.csproj",
+        "projectName": "MathAPI.ConsoleTest",
+        "projectPath": "C:\\Users\\EBRESAFE B\\Documents\\cs\\Programming Files\\MathAPI\\MathAPI\\MathAPI.ConsoleTest\\MathAPI.ConsoleTest.csproj",
+        "packagesPath": "C:\\Users\\EBRESAFE B\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\EBRESAFE B\\Documents\\cs\\Programming Files\\MathAPI\\MathAPI\\MathAPI.ConsoleTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\EBRESAFE B\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "C:\\Users\\EBRESAFE B\\Documents\\cs\\Programming Files\\MathAPI\\MathAPI\\MathAPI\\MathAPI.csproj": {
+                "projectPath": "C:\\Users\\EBRESAFE B\\Documents\\cs\\Programming Files\\MathAPI\\MathAPI\\MathAPI\\MathAPI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\EBRESAFE B\\Documents\\cs\\Programming Files\\MathAPI\\MathAPI\\MathAPI\\MathAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\EBRESAFE B\\Documents\\cs\\Programming Files\\MathAPI\\MathAPI\\MathAPI\\MathAPI.csproj",
+        "projectName": "MathAPI",
+        "projectPath": "C:\\Users\\EBRESAFE B\\Documents\\cs\\Programming Files\\MathAPI\\MathAPI\\MathAPI\\MathAPI.csproj",
+        "packagesPath": "C:\\Users\\EBRESAFE B\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\EBRESAFE B\\Documents\\cs\\Programming Files\\MathAPI\\MathAPI\\MathAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\EBRESAFE B\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

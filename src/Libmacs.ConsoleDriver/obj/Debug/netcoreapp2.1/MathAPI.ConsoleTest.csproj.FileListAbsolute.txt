@@ -1,0 +1,30 @@
+C:\Users\EBRESAFE B\Documents\MathAPI\MathAPI\MathAPI.ConsoleTest\bin\Debug\netcoreapp2.1\MathAPI.ConsoleTest.deps.json
+C:\Users\EBRESAFE B\Documents\MathAPI\MathAPI\MathAPI.ConsoleTest\bin\Debug\netcoreapp2.1\MathAPI.ConsoleTest.runtimeconfig.json
+C:\Users\EBRESAFE B\Documents\MathAPI\MathAPI\MathAPI.ConsoleTest\bin\Debug\netcoreapp2.1\MathAPI.ConsoleTest.runtimeconfig.dev.json
+C:\Users\EBRESAFE B\Documents\MathAPI\MathAPI\MathAPI.ConsoleTest\bin\Debug\netcoreapp2.1\MathAPI.ConsoleTest.dll
+C:\Users\EBRESAFE B\Documents\MathAPI\MathAPI\MathAPI.ConsoleTest\bin\Debug\netcoreapp2.1\MathAPI.ConsoleTest.pdb
+C:\Users\EBRESAFE B\Documents\MathAPI\MathAPI\MathAPI.ConsoleTest\bin\Debug\netcoreapp2.1\MathAPI.dll
+C:\Users\EBRESAFE B\Documents\MathAPI\MathAPI\MathAPI.ConsoleTest\bin\Debug\netcoreapp2.1\MathAPIFunctions.dll
+C:\Users\EBRESAFE B\Documents\MathAPI\MathAPI\MathAPI.ConsoleTest\bin\Debug\netcoreapp2.1\MathAPIFunctions.pdb
+C:\Users\EBRESAFE B\Documents\MathAPI\MathAPI\MathAPI.ConsoleTest\bin\Debug\netcoreapp2.1\MathAPI.pdb
+C:\Users\EBRESAFE B\Documents\MathAPI\MathAPI\MathAPI.ConsoleTest\obj\Debug\netcoreapp2.1\MathAPI.ConsoleTest.csprojAssemblyReference.cache
+C:\Users\EBRESAFE B\Documents\MathAPI\MathAPI\MathAPI.ConsoleTest\obj\Debug\netcoreapp2.1\MathAPI.ConsoleTest.csproj.CoreCompileInputs.cache
+C:\Users\EBRESAFE B\Documents\MathAPI\MathAPI\MathAPI.ConsoleTest\obj\Debug\netcoreapp2.1\MathAPI.ConsoleTest.AssemblyInfoInputs.cache
+C:\Users\EBRESAFE B\Documents\MathAPI\MathAPI\MathAPI.ConsoleTest\obj\Debug\netcoreapp2.1\MathAPI.ConsoleTest.AssemblyInfo.cs
+C:\Users\EBRESAFE B\Documents\MathAPI\MathAPI\MathAPI.ConsoleTest\obj\Debug\netcoreapp2.1\MathAPI.ConsoleTest.csproj.CopyComplete
+C:\Users\EBRESAFE B\Documents\MathAPI\MathAPI\MathAPI.ConsoleTest\obj\Debug\netcoreapp2.1\MathAPI.ConsoleTest.dll
+C:\Users\EBRESAFE B\Documents\MathAPI\MathAPI\MathAPI.ConsoleTest\obj\Debug\netcoreapp2.1\MathAPI.ConsoleTest.pdb
+C:\Users\EBRESAFE B\Documents\cs\Programming Files\MathAPI\MathAPI\MathAPI.ConsoleTest\bin\Debug\netcoreapp2.1\MathAPI.ConsoleTest.deps.json
+C:\Users\EBRESAFE B\Documents\cs\Programming Files\MathAPI\MathAPI\MathAPI.ConsoleTest\bin\Debug\netcoreapp2.1\MathAPI.ConsoleTest.runtimeconfig.json
+C:\Users\EBRESAFE B\Documents\cs\Programming Files\MathAPI\MathAPI\MathAPI.ConsoleTest\bin\Debug\netcoreapp2.1\MathAPI.ConsoleTest.runtimeconfig.dev.json
+C:\Users\EBRESAFE B\Documents\cs\Programming Files\MathAPI\MathAPI\MathAPI.ConsoleTest\bin\Debug\netcoreapp2.1\MathAPI.ConsoleTest.dll
+C:\Users\EBRESAFE B\Documents\cs\Programming Files\MathAPI\MathAPI\MathAPI.ConsoleTest\bin\Debug\netcoreapp2.1\MathAPI.ConsoleTest.pdb
+C:\Users\EBRESAFE B\Documents\cs\Programming Files\MathAPI\MathAPI\MathAPI.ConsoleTest\bin\Debug\netcoreapp2.1\MathAPI.dll
+C:\Users\EBRESAFE B\Documents\cs\Programming Files\MathAPI\MathAPI\MathAPI.ConsoleTest\bin\Debug\netcoreapp2.1\MathAPI.pdb
+C:\Users\EBRESAFE B\Documents\cs\Programming Files\MathAPI\MathAPI\MathAPI.ConsoleTest\obj\Debug\netcoreapp2.1\MathAPI.ConsoleTest.csprojAssemblyReference.cache
+C:\Users\EBRESAFE B\Documents\cs\Programming Files\MathAPI\MathAPI\MathAPI.ConsoleTest\obj\Debug\netcoreapp2.1\MathAPI.ConsoleTest.csproj.CoreCompileInputs.cache
+C:\Users\EBRESAFE B\Documents\cs\Programming Files\MathAPI\MathAPI\MathAPI.ConsoleTest\obj\Debug\netcoreapp2.1\MathAPI.ConsoleTest.AssemblyInfoInputs.cache
+C:\Users\EBRESAFE B\Documents\cs\Programming Files\MathAPI\MathAPI\MathAPI.ConsoleTest\obj\Debug\netcoreapp2.1\MathAPI.ConsoleTest.AssemblyInfo.cs
+C:\Users\EBRESAFE B\Documents\cs\Programming Files\MathAPI\MathAPI\MathAPI.ConsoleTest\obj\Debug\netcoreapp2.1\MathAPI.ConsoleTest.csproj.CopyComplete
+C:\Users\EBRESAFE B\Documents\cs\Programming Files\MathAPI\MathAPI\MathAPI.ConsoleTest\obj\Debug\netcoreapp2.1\MathAPI.ConsoleTest.dll
+C:\Users\EBRESAFE B\Documents\cs\Programming Files\MathAPI\MathAPI\MathAPI.ConsoleTest\obj\Debug\netcoreapp2.1\MathAPI.ConsoleTest.pdb

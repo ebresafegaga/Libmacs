@@ -1,0 +1,8 @@
+C:\Users\EBRESAFE B\Documents\cs\Programming Files\Libmacs\src\Libmacs\bin\Debug\netcoreapp3.0\Libmacs.deps.json
+C:\Users\EBRESAFE B\Documents\cs\Programming Files\Libmacs\src\Libmacs\bin\Debug\netcoreapp3.0\Libmacs.dll
+C:\Users\EBRESAFE B\Documents\cs\Programming Files\Libmacs\src\Libmacs\bin\Debug\netcoreapp3.0\Libmacs.pdb
+C:\Users\EBRESAFE B\Documents\cs\Programming Files\Libmacs\src\Libmacs\obj\Debug\netcoreapp3.0\Libmacs.csprojAssemblyReference.cache
+C:\Users\EBRESAFE B\Documents\cs\Programming Files\Libmacs\src\Libmacs\obj\Debug\netcoreapp3.0\Libmacs.AssemblyInfoInputs.cache
+C:\Users\EBRESAFE B\Documents\cs\Programming Files\Libmacs\src\Libmacs\obj\Debug\netcoreapp3.0\Libmacs.AssemblyInfo.cs
+C:\Users\EBRESAFE B\Documents\cs\Programming Files\Libmacs\src\Libmacs\obj\Debug\netcoreapp3.0\Libmacs.dll
+C:\Users\EBRESAFE B\Documents\cs\Programming Files\Libmacs\src\Libmacs\obj\Debug\netcoreapp3.0\Libmacs.pdb

@@ -1,0 +1,16 @@
+C:\Users\EBRESAFE B\Documents\cs\Programming Files\Libmacs\test\Libmacs.Tests\obj\Debug\netcoreapp2.1\Libmacs.UnitTests.csprojAssemblyReference.cache
+C:\Users\EBRESAFE B\Documents\cs\Programming Files\Libmacs\test\Libmacs.Tests\obj\Debug\netcoreapp2.1\Libmacs.UnitTests.AssemblyInfoInputs.cache
+C:\Users\EBRESAFE B\Documents\cs\Programming Files\Libmacs\test\Libmacs.Tests\obj\Debug\netcoreapp2.1\Libmacs.UnitTests.AssemblyInfo.cs
+C:\Users\EBRESAFE B\Documents\cs\Programming Files\Libmacs\test\Libmacs.Tests\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\EBRESAFE B\Documents\cs\Programming Files\Libmacs\test\Libmacs.Tests\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\EBRESAFE B\Documents\cs\Programming Files\Libmacs\test\Libmacs.Tests\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+C:\Users\EBRESAFE B\Documents\cs\Programming Files\Libmacs\test\Libmacs.Tests\bin\Debug\netcoreapp2.1\Libmacs.UnitTests.deps.json
+C:\Users\EBRESAFE B\Documents\cs\Programming Files\Libmacs\test\Libmacs.Tests\bin\Debug\netcoreapp2.1\Libmacs.UnitTests.runtimeconfig.json
+C:\Users\EBRESAFE B\Documents\cs\Programming Files\Libmacs\test\Libmacs.Tests\bin\Debug\netcoreapp2.1\Libmacs.UnitTests.runtimeconfig.dev.json
+C:\Users\EBRESAFE B\Documents\cs\Programming Files\Libmacs\test\Libmacs.Tests\bin\Debug\netcoreapp2.1\Libmacs.UnitTests.dll
+C:\Users\EBRESAFE B\Documents\cs\Programming Files\Libmacs\test\Libmacs.Tests\bin\Debug\netcoreapp2.1\Libmacs.UnitTests.pdb
+C:\Users\EBRESAFE B\Documents\cs\Programming Files\Libmacs\test\Libmacs.Tests\bin\Debug\netcoreapp2.1\Libmacs.dll
+C:\Users\EBRESAFE B\Documents\cs\Programming Files\Libmacs\test\Libmacs.Tests\bin\Debug\netcoreapp2.1\Libmacs.pdb
+C:\Users\EBRESAFE B\Documents\cs\Programming Files\Libmacs\test\Libmacs.Tests\obj\Debug\netcoreapp2.1\Libmacs.UnitTests.csproj.CopyComplete
+C:\Users\EBRESAFE B\Documents\cs\Programming Files\Libmacs\test\Libmacs.Tests\obj\Debug\netcoreapp2.1\Libmacs.UnitTests.dll
+C:\Users\EBRESAFE B\Documents\cs\Programming Files\Libmacs\test\Libmacs.Tests\obj\Debug\netcoreapp2.1\Libmacs.UnitTests.pdb

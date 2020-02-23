@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.1",
+    "signature": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.1": {
+      "MathAPI.ConsoleTest/1.0.0": {
+        "dependencies": {
+          "MathAPI": "1.0.0"
+        },
+        "runtime": {
+          "MathAPI.ConsoleTest.dll": {}
+        }
+      },
+      "MathAPI/1.0.0": {
+        "runtime": {
+          "MathAPI.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MathAPI.ConsoleTest/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MathAPI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

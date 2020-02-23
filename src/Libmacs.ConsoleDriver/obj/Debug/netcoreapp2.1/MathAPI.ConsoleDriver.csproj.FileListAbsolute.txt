@@ -1,0 +1,13 @@
+C:\Users\EBRESAFE B\Documents\cs\Programming Files\MathAPI\MathAPI\MathAPI.ConsoleTest\bin\Debug\netcoreapp2.1\MathAPI.ConsoleDriver.deps.json
+C:\Users\EBRESAFE B\Documents\cs\Programming Files\MathAPI\MathAPI\MathAPI.ConsoleTest\bin\Debug\netcoreapp2.1\MathAPI.ConsoleDriver.runtimeconfig.json
+C:\Users\EBRESAFE B\Documents\cs\Programming Files\MathAPI\MathAPI\MathAPI.ConsoleTest\bin\Debug\netcoreapp2.1\MathAPI.ConsoleDriver.runtimeconfig.dev.json
+C:\Users\EBRESAFE B\Documents\cs\Programming Files\MathAPI\MathAPI\MathAPI.ConsoleTest\bin\Debug\netcoreapp2.1\MathAPI.ConsoleDriver.dll
+C:\Users\EBRESAFE B\Documents\cs\Programming Files\MathAPI\MathAPI\MathAPI.ConsoleTest\bin\Debug\netcoreapp2.1\MathAPI.ConsoleDriver.pdb
+C:\Users\EBRESAFE B\Documents\cs\Programming Files\MathAPI\MathAPI\MathAPI.ConsoleTest\bin\Debug\netcoreapp2.1\MathAPI.dll
+C:\Users\EBRESAFE B\Documents\cs\Programming Files\MathAPI\MathAPI\MathAPI.ConsoleTest\bin\Debug\netcoreapp2.1\MathAPI.pdb
+C:\Users\EBRESAFE B\Documents\cs\Programming Files\MathAPI\MathAPI\MathAPI.ConsoleTest\obj\Debug\netcoreapp2.1\MathAPI.ConsoleDriver.csprojAssemblyReference.cache
+C:\Users\EBRESAFE B\Documents\cs\Programming Files\MathAPI\MathAPI\MathAPI.ConsoleTest\obj\Debug\netcoreapp2.1\MathAPI.ConsoleDriver.AssemblyInfoInputs.cache
+C:\Users\EBRESAFE B\Documents\cs\Programming Files\MathAPI\MathAPI\MathAPI.ConsoleTest\obj\Debug\netcoreapp2.1\MathAPI.ConsoleDriver.AssemblyInfo.cs
+C:\Users\EBRESAFE B\Documents\cs\Programming Files\MathAPI\MathAPI\MathAPI.ConsoleTest\obj\Debug\netcoreapp2.1\MathAPI.ConsoleDriver.csproj.CopyComplete
+C:\Users\EBRESAFE B\Documents\cs\Programming Files\MathAPI\MathAPI\MathAPI.ConsoleTest\obj\Debug\netcoreapp2.1\MathAPI.ConsoleDriver.dll
+C:\Users\EBRESAFE B\Documents\cs\Programming Files\MathAPI\MathAPI\MathAPI.ConsoleTest\obj\Debug\netcoreapp2.1\MathAPI.ConsoleDriver.pdb

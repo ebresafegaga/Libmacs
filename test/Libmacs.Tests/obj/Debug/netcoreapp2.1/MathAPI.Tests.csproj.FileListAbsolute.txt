@@ -1,0 +1,17 @@
+C:\Users\EBRESAFE B\Documents\cs\Programming Files\MathAPI\MathAPI\MathAPI.Tests\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\EBRESAFE B\Documents\cs\Programming Files\MathAPI\MathAPI\MathAPI.Tests\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\EBRESAFE B\Documents\cs\Programming Files\MathAPI\MathAPI\MathAPI.Tests\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+C:\Users\EBRESAFE B\Documents\cs\Programming Files\MathAPI\MathAPI\MathAPI.Tests\bin\Debug\netcoreapp2.1\MathAPI.Tests.deps.json
+C:\Users\EBRESAFE B\Documents\cs\Programming Files\MathAPI\MathAPI\MathAPI.Tests\bin\Debug\netcoreapp2.1\MathAPI.Tests.runtimeconfig.json
+C:\Users\EBRESAFE B\Documents\cs\Programming Files\MathAPI\MathAPI\MathAPI.Tests\bin\Debug\netcoreapp2.1\MathAPI.Tests.runtimeconfig.dev.json
+C:\Users\EBRESAFE B\Documents\cs\Programming Files\MathAPI\MathAPI\MathAPI.Tests\bin\Debug\netcoreapp2.1\MathAPI.Tests.dll
+C:\Users\EBRESAFE B\Documents\cs\Programming Files\MathAPI\MathAPI\MathAPI.Tests\bin\Debug\netcoreapp2.1\MathAPI.Tests.pdb
+C:\Users\EBRESAFE B\Documents\cs\Programming Files\MathAPI\MathAPI\MathAPI.Tests\bin\Debug\netcoreapp2.1\MathAPI.dll
+C:\Users\EBRESAFE B\Documents\cs\Programming Files\MathAPI\MathAPI\MathAPI.Tests\bin\Debug\netcoreapp2.1\MathAPI.pdb
+C:\Users\EBRESAFE B\Documents\cs\Programming Files\MathAPI\MathAPI\MathAPI.Tests\obj\Debug\netcoreapp2.1\MathAPI.Tests.csprojAssemblyReference.cache
+C:\Users\EBRESAFE B\Documents\cs\Programming Files\MathAPI\MathAPI\MathAPI.Tests\obj\Debug\netcoreapp2.1\MathAPI.Tests.csproj.CoreCompileInputs.cache
+C:\Users\EBRESAFE B\Documents\cs\Programming Files\MathAPI\MathAPI\MathAPI.Tests\obj\Debug\netcoreapp2.1\MathAPI.Tests.AssemblyInfoInputs.cache
+C:\Users\EBRESAFE B\Documents\cs\Programming Files\MathAPI\MathAPI\MathAPI.Tests\obj\Debug\netcoreapp2.1\MathAPI.Tests.AssemblyInfo.cs
+C:\Users\EBRESAFE B\Documents\cs\Programming Files\MathAPI\MathAPI\MathAPI.Tests\obj\Debug\netcoreapp2.1\MathAPI.Tests.csproj.CopyComplete
+C:\Users\EBRESAFE B\Documents\cs\Programming Files\MathAPI\MathAPI\MathAPI.Tests\obj\Debug\netcoreapp2.1\MathAPI.Tests.dll
+C:\Users\EBRESAFE B\Documents\cs\Programming Files\MathAPI\MathAPI\MathAPI.Tests\obj\Debug\netcoreapp2.1\MathAPI.Tests.pdb

@@ -1,0 +1,8 @@
+C:\Users\EBRESAFE B\Documents\cs\Programming Files\MathAPI\MathAPI\MathAPI\bin\Debug\netstandard2.1\MathAPI.deps.json
+C:\Users\EBRESAFE B\Documents\cs\Programming Files\MathAPI\MathAPI\MathAPI\bin\Debug\netstandard2.1\MathAPI.dll
+C:\Users\EBRESAFE B\Documents\cs\Programming Files\MathAPI\MathAPI\MathAPI\bin\Debug\netstandard2.1\MathAPI.pdb
+C:\Users\EBRESAFE B\Documents\cs\Programming Files\MathAPI\MathAPI\MathAPI\obj\Debug\netstandard2.1\MathAPI.csprojAssemblyReference.cache
+C:\Users\EBRESAFE B\Documents\cs\Programming Files\MathAPI\MathAPI\MathAPI\obj\Debug\netstandard2.1\MathAPI.AssemblyInfoInputs.cache
+C:\Users\EBRESAFE B\Documents\cs\Programming Files\MathAPI\MathAPI\MathAPI\obj\Debug\netstandard2.1\MathAPI.AssemblyInfo.cs
+C:\Users\EBRESAFE B\Documents\cs\Programming Files\MathAPI\MathAPI\MathAPI\obj\Debug\netstandard2.1\MathAPI.dll
+C:\Users\EBRESAFE B\Documents\cs\Programming Files\MathAPI\MathAPI\MathAPI\obj\Debug\netstandard2.1\MathAPI.pdb

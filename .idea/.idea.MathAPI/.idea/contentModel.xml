@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\EBRESAFE B\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\EBRESAFE B\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_MathAPI.-271021550.00" t="ExcludeRecursive" />
+    <e p="C:\Users\EBRESAFE B\Documents\cs\Programming Files\MathAPI" t="IncludeFlat">
+      <e p="MathAPI" t="IncludeRecursive">
+        <e p="MathAPI.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="MathAPI.ConsoleTest" t="IncludeRecursive">
+        <e p="MathAPI.ConsoleDriver.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="MathAPI.sln" t="IncludeFlat" />
+      <e p="MathAPI.Tests" t="IncludeRecursive">
+        <e p="MathAPI.UnitTests.csproj" t="IncludeRecursive" />
+      </e>
+    </e>
+  </component>
+</project>
