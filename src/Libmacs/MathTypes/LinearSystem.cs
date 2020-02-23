@@ -171,6 +171,7 @@ namespace MathAPI.MathTypes
 
                             // Index, indicating, the variable. e.g x1, x1, x2.
                             // NOTE: This is aa zero based index.
+                            // TODO: I should use C# 8 features here that ?? thingy for this nullable guy
                             int? index = row.FindFirstNonZeroIndex ();
 
                             // Right hand side of the current row.
