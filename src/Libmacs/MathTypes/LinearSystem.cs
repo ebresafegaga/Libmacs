@@ -113,7 +113,7 @@ namespace MathAPI.MathTypes
                         break;
                     }
                 }
-                c++;
+                c++;  // Pun intended! (C++ in C#)
             }
 
             // Full matrix with the rhs.
