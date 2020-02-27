@@ -586,7 +586,7 @@ namespace MathAPI.Helpers
         // to avoid complications.
         // Well, they might might not even be complications; it might just be how it's meant to be normally.
         // For example, a reference type might implement a * and + operator, which will perfectly work!
-        // Except for a the null around line 222 (the default for reference types is null), so proper caution 
+        // Except for a the null around line xxx (the default for reference types is null), so proper caution 
         // (and structures to deal with the nulls) should be taken when consuming this method. 
         // Again, this wouldn't happen with ValueTypes as their default value is not null.
         public static T[,] MultplyMatrix<T> (T[,] matrix, T[,] other)

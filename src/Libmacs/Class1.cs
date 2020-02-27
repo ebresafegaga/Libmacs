@@ -37,15 +37,11 @@ namespace Test
             }
         }
 
-        IEnumerator IEnumerable.GetEnumerator()
-        {
-            return GetEnumerator();
-        }
+        IEnumerator IEnumerable.GetEnumerator() => GetEnumerator ();
 
-        public bool Equals(Polynomial other) => 
-            Terms.SequenceEqual(other.Terms) ? true : false;
+        public bool Equals (Polynomial other) => Terms.SequenceEqual (other.Terms) ? true : false;
 
-        public override bool Equals(object obj)
+        public override bool Equals (object obj)
         {
             if (obj is Polynomial p)
             {
@@ -112,14 +108,11 @@ namespace Test
         public Fraction Coefficient { get; }
         public ISet<UnKnown> UnKnowns { get; }
 
-        public bool Equals (Term other) =>
-            UnKnowns.SetEquals (other.UnKnowns);
+        public bool Equals (Term other) => UnKnowns.SetEquals (other.UnKnowns);
 
-        public IEnumerator<UnKnown> GetEnumerator() => 
-            UnKnowns.AsEnumerable().GetEnumerator();
+        public IEnumerator<UnKnown> GetEnumerator () => UnKnowns.AsEnumerable ().GetEnumerator ();
 
-        IEnumerator IEnumerable.GetEnumerator() => 
-            GetEnumerator();
+        IEnumerator IEnumerable.GetEnumerator () => GetEnumerator ();
 
         public static bool operator == (Term term, Term other)
         {
@@ -171,9 +164,9 @@ namespace Test
             Degree = degree;
         }
 
-        static UnKnown()
+        static UnKnown ()
         {
-            DefaultComparer = new UnknownComparer();
+            DefaultComparer = new UnknownComparer ();
         }
 
         public char Value { get; }
@@ -199,7 +192,8 @@ namespace Test
     public class UnknownComparer : IComparer<UnKnown>
     {
         public UnknownComparer()
-        { }
+        {
+       	}
 
         public UnknownComparer (Comparison<UnKnown> comparison)
         {

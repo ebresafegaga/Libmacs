@@ -35,7 +35,7 @@ namespace MathAPI.Helpers
 
         public static bool IsConstant(this QuadraticExpression expression)
         {
-            var (a, b, c, _) = expression.Terms;
+            var (a, b, _, _) = expression.Terms;
 
             if (a.Numerator == 0 && b.Numerator == 0)
             {
