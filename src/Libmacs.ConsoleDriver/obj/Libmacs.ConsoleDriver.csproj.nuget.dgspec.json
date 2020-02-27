@@ -34,6 +34,9 @@
             "projectReferences": {
               "C:\\Users\\EBRESAFE B\\Documents\\cs\\Programming Files\\Libmacs\\src\\Libmacs\\Libmacs.csproj": {
                 "projectPath": "C:\\Users\\EBRESAFE B\\Documents\\cs\\Programming Files\\Libmacs\\src\\Libmacs\\Libmacs.csproj"
+              },
+              "C:\\Users\\EBRESAFE B\\Documents\\cs\\Programming Files\\Libmacs\\src\\src\\Libmacs.csproj": {
+                "projectPath": "C:\\Users\\EBRESAFE B\\Documents\\cs\\Programming Files\\Libmacs\\src\\src\\Libmacs.csproj"
               }
             }
           }

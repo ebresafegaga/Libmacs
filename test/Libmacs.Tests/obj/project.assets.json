@@ -4062,6 +4062,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
+      "C:\\Users\\EBRESAFE B\\Documents\\cs\\Programming Files\\Libmacs\\src\\Libmacs.csproj",
       "Libmacs >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 16.3.0-preview-20190828-03",
       "Microsoft.NETCore.App >= 2.1.0",
@@ -4102,6 +4103,9 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
+            "C:\\Users\\EBRESAFE B\\Documents\\cs\\Programming Files\\Libmacs\\src\\Libmacs.csproj": {
+              "projectPath": "C:\\Users\\EBRESAFE B\\Documents\\cs\\Programming Files\\Libmacs\\src\\Libmacs.csproj"
+            },
             "C:\\Users\\EBRESAFE B\\Documents\\cs\\Programming Files\\Libmacs\\src\\Libmacs\\Libmacs.csproj": {
               "projectPath": "C:\\Users\\EBRESAFE B\\Documents\\cs\\Programming Files\\Libmacs\\src\\Libmacs\\Libmacs.csproj"
             }
@@ -4151,5 +4155,16 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\Users\\EBRESAFE B\\Documents\\cs\\Programming Files\\Libmacs\\src\\Libmacs.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Users\\EBRESAFE B\\Documents\\cs\\Programming Files\\Libmacs\\src\\Libmacs.csproj",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.1"
+      ]
+    }
+  ]
 }

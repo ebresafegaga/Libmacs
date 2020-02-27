@@ -1,0 +1,8 @@
+.idea/
+.vs/
+src/Libmacs/bin
+src/Libmacs/obj
+src/Libmacs.ConsoleDriver/bin
+src/Libmacs.ConsoleDriver/obj
+test/Libmacs.Tests/obj
+test/Libmacs.Tests/bin
