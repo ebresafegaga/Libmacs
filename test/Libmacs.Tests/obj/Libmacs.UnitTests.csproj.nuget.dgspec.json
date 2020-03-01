@@ -218,9 +218,6 @@
         "frameworks": {
           "netcoreapp2.1": {
             "projectReferences": {
-              "C:\\Users\\EBRESAFE B\\Documents\\cs\\Programming Files\\Libmacs\\src\\Libmacs.csproj": {
-                "projectPath": "C:\\Users\\EBRESAFE B\\Documents\\cs\\Programming Files\\Libmacs\\src\\Libmacs.csproj"
-              },
               "C:\\Users\\EBRESAFE B\\Documents\\cs\\Programming Files\\Libmacs\\src\\Libmacs\\Libmacs.csproj": {
                 "projectPath": "C:\\Users\\EBRESAFE B\\Documents\\cs\\Programming Files\\Libmacs\\src\\Libmacs\\Libmacs.csproj"
               }
