@@ -14,3 +14,5 @@ C:\Users\EBRESAFE B\Documents\cs\Programming Files\Libmacs\test\Libmacs.Tests\bi
 C:\Users\EBRESAFE B\Documents\cs\Programming Files\Libmacs\test\Libmacs.Tests\obj\Debug\netcoreapp2.1\Libmacs.UnitTests.csproj.CopyComplete
 C:\Users\EBRESAFE B\Documents\cs\Programming Files\Libmacs\test\Libmacs.Tests\obj\Debug\netcoreapp2.1\Libmacs.UnitTests.dll
 C:\Users\EBRESAFE B\Documents\cs\Programming Files\Libmacs\test\Libmacs.Tests\obj\Debug\netcoreapp2.1\Libmacs.UnitTests.pdb
+C:\Users\EBRESAFE B\Documents\cs\Programming Files\Libmacs\test\Libmacs.Tests\obj\Debug\netcoreapp2.1\Libmacs.UnitTests.csproj.CoreCompileInputs.cache
+C:\Users\EBRESAFE B\Documents\cs\Programming Files\Libmacs\test\Libmacs.Tests\obj\Debug\netcoreapp2.1\Libmacs.UnitTests.genruntimeconfig.cache

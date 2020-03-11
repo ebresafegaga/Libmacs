@@ -27,3 +27,5 @@ C:\Users\EBRESAFE B\Documents\cs\Programming Files\Libmacs\src\Libmacs.ConsoleDr
 C:\Users\EBRESAFE B\Documents\cs\Programming Files\Libmacs\src\Libmacs.ConsoleDriver\obj\Debug\netcoreapp3.0\Libmacs.ConsoleDriver.csproj.CopyComplete
 C:\Users\EBRESAFE B\Documents\cs\Programming Files\Libmacs\src\Libmacs.ConsoleDriver\obj\Debug\netcoreapp3.0\Libmacs.ConsoleDriver.dll
 C:\Users\EBRESAFE B\Documents\cs\Programming Files\Libmacs\src\Libmacs.ConsoleDriver\obj\Debug\netcoreapp3.0\Libmacs.ConsoleDriver.pdb
+C:\Users\EBRESAFE B\Documents\cs\Programming Files\Libmacs\src\Libmacs.ConsoleDriver\obj\Debug\netcoreapp3.0\Libmacs.ConsoleDriver.csproj.CoreCompileInputs.cache
+C:\Users\EBRESAFE B\Documents\cs\Programming Files\Libmacs\src\Libmacs.ConsoleDriver\obj\Debug\netcoreapp3.0\Libmacs.ConsoleDriver.genruntimeconfig.cache
