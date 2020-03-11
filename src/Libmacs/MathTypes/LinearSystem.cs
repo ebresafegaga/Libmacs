@@ -31,13 +31,17 @@ namespace MathAPI.MathTypes
             }
             else if (rows >= columns)
             {
+                //
                 // I assume we were given more rows than required (one or more)
+                //
                 Fraction[,] mm = equations.ToArray ();
                 mm.GetReducedRowEchelonForm ();
                 var vMm = mm.AsMatrix ().ToVector (columns - 1);
                 RemoveColumn (columns - 1, ref mm);
+                
+                //
                 // Check for potential Zero solutions, if not present, remove the unessecary rows please!
-
+                //
                 for (int i = 0; i < mm.GetLength (0); i++)
                 {
                     var vv = vMm[i];
