@@ -371,7 +371,7 @@ namespace MathAPI.MathTypes
             LinearExpression expression2 = default!; // Cleary, this could be null
 
             //
-            // This polynmial division is primitive. A more robouat solution ca be found at PolynomialHelpers.cs
+            // This polynmial division is primitive. A more roboust solution can be found at PolynomialHelpers.cs
             //
             int count = 1;
             do
