@@ -1,9 +1,4 @@
 ﻿using MathAPI.MathTypes;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace MathAPI.Helpers
 {
@@ -17,7 +12,6 @@ namespace MathAPI.Helpers
             new QuadraticEquation(expression.Terms.a, expression.Terms.b, 
                 (Fraction)expression.Terms.c!, 0);
         
-
         public static bool IsConstant(this LinearExpression expression)
         {
             var (a, b, _, _) = expression.Terms;
