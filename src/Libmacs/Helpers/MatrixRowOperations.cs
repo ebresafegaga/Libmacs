@@ -209,7 +209,7 @@ namespace MathAPI.Helpers
         /// <param name="z">Optional and pretty useless argument (for a hack!) </param>
         public static void MultiplyIByKThenAddToJ(int constant, int i, int j, ref int[,] matrix, int? z = null)
         {
-            int[,] copy = matrix.Clone() as int[,];
+            int[,] copy = (int[,]) matrix.Clone();
             int rowFrom = i - 1;
             int rowTo = j - 1;
 
@@ -218,7 +218,7 @@ namespace MathAPI.Helpers
 
             try
             {
-                int[,] bufferMatrix = MultiplyRowByK(constant, i, copy);
+                int[,] bufferMatrix = MultiplyRowByK(constant, i, copy!);
                 for (int a = 0; a < columns; a++)
                 {
                     matrix[rowTo, a] += bufferMatrix[rowFrom, a];
@@ -236,9 +236,9 @@ namespace MathAPI.Helpers
             (int rows, int columns) = (matrix.GetLength(0), matrix.GetLength(1));
             int rowFrom = i - 1;
             int rowTo = j - 1;
-            int[,] buffer = matrix.Clone() as int[,];
+            int[,] buffer = (int[,]) matrix.Clone();
 
-            MultiplyRowByK(constantPivot, i, ref buffer);
+            MultiplyRowByK(constantPivot, i, ref buffer!);
             MultiplyRowByK(contantElement, j, ref buffer);
 
             switch (operation)

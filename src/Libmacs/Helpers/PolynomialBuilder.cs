@@ -26,14 +26,18 @@ namespace MathAPI.Helpers
         {
             if (Polynomial.Terms.ContainsKey (term.Degree))
             {
+                //
                 // Simple addition.
+                //
                 Polynomial.Terms[term.Degree] = term.AddcompatibleTerms(Polynomial.Terms[term.Degree]);
             }
             else
             {
+                //
                 // Add to the Terms dic.
+                //
                 var dic = Polynomial.Terms as Dictionary<int, Term>;
-                dic.Add(term.Degree, term);
+                dic!.Add(term.Degree, term);
                 Polynomial = new Polynomial(dic);
             }
         }

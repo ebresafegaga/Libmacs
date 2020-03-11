@@ -47,7 +47,7 @@ namespace MathAPI.MathTypes
                 QuadraticEquation equation = new QuadraticEquation(
                     quadratic.Terms.a, 
                     quadratic.Terms.b, 
-                    (Fraction)quadratic.Terms.c, 0);
+                    (Fraction)quadratic.Terms.c!, 0);
                 (x1, x2) = equation.Solve();
             }
 

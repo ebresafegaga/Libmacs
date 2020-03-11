@@ -51,11 +51,19 @@ namespace MathAPI.MathTypes
             !(expression == other);
         public static ExpressionTerms operator + (ExpressionTerms expression, ExpressionTerms other)
         {
-            ExpressionTerms expr = default;
+            //
+            // Could be null
+            // 
+            ExpressionTerms expr = default!;
 
+            //
             // Hack: To handle null's in MultplyMatrix<T>(T[,] matrix, T[,] other)
+            //
             if ((object)expression == null)
             {
+                //
+                // TODO: Use switch case for pattern matching
+                //  
                 if (other is LinearExpression)
                 {
                     expression = new LinearExpression (0, 0);
@@ -122,7 +130,7 @@ namespace MathAPI.MathTypes
 
         public static ExpressionTerms operator - (ExpressionTerms expression)
         {
-            ExpressionTerms ex = default;
+            ExpressionTerms ex = default!;
             if (expression is LinearExpression linear)
             {
                 ex = (-linear);
@@ -141,7 +149,7 @@ namespace MathAPI.MathTypes
 
         public static ExpressionTerms operator * (ExpressionTerms expression, ExpressionTerms other)
         {
-            ExpressionTerms ex = default;
+            ExpressionTerms ex = default!;
 
             // Linear combinations
             if (expression is LinearExpression a && other is LinearExpression b)
@@ -174,25 +182,38 @@ namespace MathAPI.MathTypes
             return ex;
         }
 
-        public Equation AsEquation ()
-        {
-            if (this is LinearExpression a1)
-            {
-                return new LinearEquation (0, a1.Terms.b, a1.Terms.a);
-            }
-            else if (this is QuadraticExpression a2)
-            {
-                return new QuadraticEquation (a2.Terms.a, a2.Terms.b, (Fraction)a2.Terms.c, 0);
-            }
-            else if (this is CubicExpression a3)
-            {
-                return new CubicEquation (a3.Terms.a, a3.Terms.b, (Fraction)a3.Terms.c, (Fraction)a3.Terms.d, 0);
-            }
 
-            // We should never get here.
-            Debug.Assert (false);
-            return null;
-        }
+        //
+        // C# 8 for the win!
+        //
+        public Equation AsEquation () => this switch 
+        {
+            LinearExpression a1    => new LinearEquation (0, a1.Terms.b, a1.Terms.a), 
+            QuadraticExpression a2 => new QuadraticEquation (a2.Terms.a, a2.Terms.b, (Fraction)a2.Terms.c!, 0), 
+            CubicExpression a3     => new CubicEquation (a3.Terms.a, a3.Terms.b, (Fraction)a3.Terms.c!, (Fraction)a3.Terms.d!, 0),
+            _                      => new LinearEquation (0, 0, 0) // I'll take this as null.
+        };
+
+        // Depreciated code.
+        // public Equation AsEquation ()
+        // {
+        //     if (this is LinearExpression a1)
+        //     {
+        //         return new LinearEquation (0, a1.Terms.b, a1.Terms.a);
+        //     }
+        //     else if (this is QuadraticExpression a2)
+        //     {
+        //         return new QuadraticEquation (a2.Terms.a, a2.Terms.b, (Fraction)a2.Terms.c!, 0);
+        //     }
+        //     else if (this is CubicExpression a3)
+        //     {
+        //         return new CubicEquation (a3.Terms.a, a3.Terms.b, (Fraction)a3.Terms.c!, (Fraction)a3.Terms.d!, 0);
+        //     }
+
+        //     // We should never get here.
+        //     Debug.Assert (false);
+        //     return null;
+        // }
     }
 
     public class LinearExpression : ExpressionTerms, IEquatable<LinearExpression>
@@ -213,7 +234,7 @@ namespace MathAPI.MathTypes
         {
             var a = other.Terms.a;
             var b = expression.Terms.a + other.Terms.b;
-            var c = expression.Terms.b + (Fraction)other.Terms.c;
+            var c = expression.Terms.b + (Fraction)other.Terms.c!;
 
             return new QuadraticExpression (a, b, c);
         }
@@ -222,8 +243,8 @@ namespace MathAPI.MathTypes
         {
             var a = other.Terms.a;
             var b = other.Terms.b;
-            var c = expression.Terms.a + (Fraction)other.Terms.c;
-            var d = expression.Terms.b + (Fraction)other.Terms.d;
+            var c = expression.Terms.a + (Fraction)other.Terms.c!;
+            var d = expression.Terms.b + (Fraction)other.Terms.d!;
 
             return new CubicExpression (a, b, c, d);
         }
@@ -255,8 +276,8 @@ namespace MathAPI.MathTypes
         {
             var a = expression.Terms.a * other.Terms.a;
             var b = (expression.Terms.a * other.Terms.b) + (other.Terms.a * expression.Terms.b);
-            var c = (Fraction)((expression.Terms.a * other.Terms.c) + (expression.Terms.b * other.Terms.b));
-            var d = (Fraction)(expression.Terms.b * other.Terms.c);
+            var c = (Fraction)((expression.Terms.a * other.Terms.c) + (expression.Terms.b * other.Terms.b))!;
+            var d = (Fraction)(expression.Terms.b * other.Terms.c)!;
             return new CubicExpression (a, b, c, d);
         }
 
@@ -292,7 +313,7 @@ namespace MathAPI.MathTypes
         {
             var a = expression.Terms.a + other.Terms.a;
             var b = expression.Terms.b + other.Terms.b;
-            var c = (Fraction)(expression.Terms.c + other.Terms.c);
+            var c = (Fraction)(expression.Terms.c + other.Terms.c)!;
             return new QuadraticExpression (a, b, c);
         }
 
@@ -300,8 +321,8 @@ namespace MathAPI.MathTypes
         {
             var a = other.Terms.a;
             var b = expression.Terms.a + other.Terms.b;
-            var c = expression.Terms.b + (Fraction)other.Terms.c;
-            var d = (Fraction)expression.Terms.c + (Fraction)other.Terms.d;
+            var c = expression.Terms.b + (Fraction)other.Terms.c!;
+            var d = (Fraction)expression.Terms.c! + (Fraction)other.Terms.d!;
 
             return new CubicExpression (a, b, c, d);
         }
@@ -310,7 +331,7 @@ namespace MathAPI.MathTypes
         {
             var a = expression.Terms.a - other.Terms.a;
             var b = expression.Terms.b - other.Terms.b;
-            var c = (Fraction)(expression.Terms.c - other.Terms.c);
+            var c = (Fraction)(expression.Terms.c - other.Terms.c)!;
             return new QuadraticExpression (a, b, c);
         }
 
@@ -318,7 +339,7 @@ namespace MathAPI.MathTypes
         {
             var a = (-expression.Terms.a);
             var b = (-expression.Terms.b);
-            var c = (-((Fraction)expression.Terms.c));
+            var c = (-((Fraction)expression.Terms.c!));
 
             return new QuadraticExpression (a, b, c);
         }
@@ -327,7 +348,7 @@ namespace MathAPI.MathTypes
         {
             var a = expression.Terms.a - other.Terms.a;
             var b = expression.Terms.b - other.Terms.b;
-            var c = (Fraction)expression.Terms.c;
+            var c = (Fraction)expression.Terms.c!;
             return new QuadraticExpression (a, b, c);
         }
 
@@ -347,8 +368,11 @@ namespace MathAPI.MathTypes
         {
             Fraction a = default;
             Fraction b = default;
-            LinearExpression expression2 = default;
+            LinearExpression expression2 = default!; // Cleary, this could be null
 
+            //
+            // This polynmial division is primitive. A more robouat solution ca be found at PolynomialHelpers.cs
+            //
             int count = 1;
             do
             {
@@ -358,7 +382,7 @@ namespace MathAPI.MathTypes
                         a = expression.Terms.a / other.Terms.a;
                         QuadraticExpression semi1 = new QuadraticExpression (a * other.Terms.a, a * other.Terms.b, 0);
                         expression -= semi1;
-                        expression2 = new LinearExpression (expression.Terms.b, (Fraction)expression.Terms.c);
+                        expression2 = new LinearExpression (expression.Terms.b, (Fraction)expression.Terms.c!);
                         break;
                     case 2:
                         b = expression2.Terms.a / other.Terms.a;
@@ -389,6 +413,9 @@ namespace MathAPI.MathTypes
 
         public override string ToString ()
         {
+            //
+            // TODO:
+            //
             if (Terms.b > 0)
             {
 
@@ -408,8 +435,8 @@ namespace MathAPI.MathTypes
         {
             var a = expression.Terms.a + other.Terms.a;
             var b = expression.Terms.b + other.Terms.b;
-            var c = (Fraction)(expression.Terms.c + other.Terms.c);
-            var d = (Fraction)(expression.Terms.d + other.Terms.d);
+            var c = (Fraction)(expression.Terms.c! + other.Terms.c!);
+            var d = (Fraction)(expression.Terms.d! + other.Terms.d!);
             return new CubicExpression (a, b, c, d);
         }
 
@@ -417,8 +444,8 @@ namespace MathAPI.MathTypes
         {
             var a = expression.Terms.a - other.Terms.a;
             var b = expression.Terms.b - other.Terms.b;
-            var c = (Fraction)(expression.Terms.c - other.Terms.c);
-            var d = (Fraction)(expression.Terms.d - other.Terms.d);
+            var c = (Fraction)(expression.Terms.c! - other.Terms.c!);
+            var d = (Fraction)(expression.Terms.d! - other.Terms.d!);
             return new CubicExpression (a, b, c, d);
         }
 
@@ -426,8 +453,8 @@ namespace MathAPI.MathTypes
         {
             var a = (-expression.Terms.a);
             var b = (-expression.Terms.b);
-            var c = (-((Fraction)expression.Terms.c));
-            var d = (-((Fraction)expression.Terms.d));
+            var c = (-((Fraction)expression.Terms.c!));
+            var d = (-((Fraction)expression.Terms.d!));
 
             return new CubicExpression (a, b, c, d);
         }
@@ -436,8 +463,8 @@ namespace MathAPI.MathTypes
         {
             var a = expression.Terms.a - other.Terms.a;
             var b = expression.Terms.b - other.Terms.b;
-            var c = (Fraction)(expression.Terms.c - other.Terms.c);
-            var d = (Fraction)expression.Terms.d;
+            var c = (Fraction)(expression.Terms.c! - other.Terms.c!);
+            var d = (Fraction)expression.Terms.d!;
             return new CubicExpression (a, b, c, d);
         }
 
@@ -453,7 +480,7 @@ namespace MathAPI.MathTypes
             Fraction a = default;
             Fraction b = default;
             Fraction c = default;
-            QuadraticExpression expression2 = default;
+            QuadraticExpression expression2 = default!;
             // Just so the while loop can work
             LinearExpression expression3 = new LinearExpression (1, 2);
 
@@ -466,13 +493,13 @@ namespace MathAPI.MathTypes
                         a = expression.Terms.a / other.Terms.a;
                         CubicExpression semi1 = new CubicExpression (a * other.Terms.a, a * other.Terms.b, 0, 0);
                         expression -= semi1;
-                        expression2 = new QuadraticExpression (expression.Terms.b, (Fraction)expression.Terms.c, (Fraction)expression.Terms.d);
+                        expression2 = new QuadraticExpression (expression.Terms.b, (Fraction)expression.Terms.c!, (Fraction)expression.Terms.d!);
                         break;
                     case 2:
                         b = expression2.Terms.a / other.Terms.a;
                         LinearExpression semi2 = new LinearExpression (b * other.Terms.a, b * other.Terms.b);
                         expression2 -= semi2;
-                        expression3 = new LinearExpression (expression2.Terms.b, (Fraction)expression2.Terms.c);
+                        expression3 = new LinearExpression (expression2.Terms.b, (Fraction)expression2.Terms.c!);
                         break;
                     case 3:
                         c = expression3.Terms.a / other.Terms.a;
@@ -496,7 +523,7 @@ namespace MathAPI.MathTypes
             var cube = (int)Math.Pow (x.Numerator, 3) * (int)Terms.a.Numerator;
             var square = (int)Math.Pow (x.Numerator, 2) * (int)Terms.b.Numerator;
 
-            return cube + square + (Fraction)(x * Terms.c) + (Fraction)Terms.d;
+            return cube + square + (Fraction)(x * Terms.c!) + (Fraction)Terms.d!;
         }
 
         public static implicit operator CubicExpression (Fraction fraction)
@@ -525,7 +552,7 @@ namespace MathAPI.MathTypes
                 bSign = "+";
             }
 
-            if (((Fraction)c).Numerator < 0)
+            if (((Fraction)c!).Numerator < 0)
             {
                 //negative 
                 cSign = "-";
@@ -536,7 +563,7 @@ namespace MathAPI.MathTypes
                 cSign = "+";
             }
 
-            if (((Fraction)d).Numerator < 0)
+            if (((Fraction)d!).Numerator < 0)
             {
                 //negative 
                 dSign = "-";

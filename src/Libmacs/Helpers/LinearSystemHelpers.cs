@@ -6,8 +6,10 @@ namespace MathAPI.Helpers
 {
     public static class LinearSystemHelpers
     {
+        //
         // If return value is zero, then the row is zero.
         // Always check for null when using this method.
+        //
         public static int? FindFirstNonZeroIndex(this Fraction[] array)
         {
             int? index = null;
@@ -53,13 +55,17 @@ namespace MathAPI.Helpers
             var freeVars = new List<int> ();
             var array = matrix.ToArray ();
 
+            //
             // Add all positions to the list.
+            //
             for (int i = 0; i < array.GetLength (1); i++)
                 freeVars.Add (i);
 
             var (rows, columns) = (array.GetLength (0), array.GetLength (1));
 
+            //
             // Remove from the list based on the state of the matrix.
+            //
             for (int i = 0; i < rows; i++)
             {
                 for (int j = 0; j < columns; j++)
@@ -94,13 +100,17 @@ namespace MathAPI.Helpers
                 var (i, j) = position;
                 for (int a = i; a < rrows; a++)
                 {
+                    //
                     // To the right, to the right, now...
+                    //
                     for (int b = (j + 1); b < ccolumns; b++)
                     {
                         if (A[a, b] != 0)
                             return b;
                     }
+                    //
                     // Break once we leave the row.
+                    //
                     break;
                 }
                 return null;

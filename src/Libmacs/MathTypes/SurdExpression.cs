@@ -189,7 +189,7 @@ namespace MathAPI.MathTypes
                 }
                 count++;
             }
-            return null;
+            return null; // Haaaaaaaaaaaaaaaaaaaaa
         }
 
         public static bool operator == (SurdExpression surds, SurdExpression other)
@@ -227,10 +227,10 @@ namespace MathAPI.MathTypes
                 {
                     _common.Add (surd.Root);
 
-                    var tempR1 = (int)surds.FindRootIfPresent (surd.Root);
-                    var tempR2 = (int)other.FindRootIfPresent (surd.Root);
+                    var tempR1 = (int)surds.FindRootIfPresent (surd.Root)!;
+                    var tempR2 = (int)other.FindRootIfPresent (surd.Root)!;
                     // Remove "commons"
-                    var r1 = _surds[(int)surds.FindRootIfPresent (surd.Root)];
+                    var r1 = _surds[(int)surds.FindRootIfPresent (surd.Root)!];
                     //var r2H = _other[(int)other.FindRootIfPresent(surd.Root)];
                     var r2 = surd;
                     //Debug.Assert(r2H == r2);
@@ -242,8 +242,8 @@ namespace MathAPI.MathTypes
             // Add the contants of the "common" surds
             foreach (var root in _common)
             {
-                var s1 = (int)surds.FindRootIfPresent (root);
-                var s2 = (int)other.FindRootIfPresent (root);
+                var s1 = (int)surds.FindRootIfPresent (root)!;
+                var s2 = (int)other.FindRootIfPresent (root)!;
 
                 var c1 = surds[s1].Constant;
                 var c2 = other[s2].Constant;

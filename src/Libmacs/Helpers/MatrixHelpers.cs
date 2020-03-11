@@ -506,7 +506,10 @@ namespace MathAPI.Helpers
             }
             else
             {
-                T sum = default;
+                //
+                // This could be null.
+                //
+                T sum = default!;
                 for (int j = 0; j < columns; j++)
                 {
                     sum = add (sum, multiply (matrix[0, j], GetSignedMinor (0, j, matrix)));
@@ -606,8 +609,10 @@ namespace MathAPI.Helpers
             {
                 for (int b = 0; b < columns2; b++)
                 {
+                    //
                     // NOTE: THIS VALUE WILL BE NULL FOR REFERENCE TYPES AND CAN LEAD TO A NULL REFERENCE EXCEPTION (OR WRONG RESULTS)!
-                    T sum = default;
+                    //
+                    T sum = default!;
 
                     for (int j = 0; j < columns; j++)
                     {
