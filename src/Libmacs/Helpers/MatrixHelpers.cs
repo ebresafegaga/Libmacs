@@ -800,14 +800,7 @@ namespace MathAPI.Helpers
                 }
             }
 
-            if (count == usableRows)
-            {
-                return true;
-            }
-            else
-            {
-                return false;
-            }
+            return count == usableRows;
         }
 
         public static void RemoveColumn<T> (int column, ref T[,] matrix)
